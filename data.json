@@ -1,0 +1,212 @@
+{
+  "soundscapes": [
+  {
+    "color": "color1",
+    "id": "sound1",
+    "icon": "fa-tint",
+    "name": "Falling Rain",
+    "soundEffectnum": 1
+  },
+  {
+    "color": "color2",
+    "id": "sound2",
+    "icon": "fa-tree",
+    "name": "Forest Morning",
+    "soundEffectnum": 2
+  },
+  {
+    "color": "color3",
+    "id": "sound3",
+    "icon": "fa-fire",
+    "name": "Burning Logs",
+    "soundEffectnum": 3
+  },
+  {
+    "color": "color4",
+    "id": "sound4",
+    "icon": "fa-ellipsis-h",
+    "name": "White Noise",
+    "soundEffectnum": 4
+  },
+  {
+    "color": "color6",
+    "id": "sound6",
+    "icon": "fa-spinner",
+    "name": "Beautiful Chill Mix",
+    "soundEffectnum": 6
+  },
+  {
+    "color": "color7",
+    "id": "sound7",
+    "icon": "fa-ambulance",
+    "name": "Ambulance",
+    "soundEffectnum": 7
+  },
+  {
+    "color": "color8",
+    "id": "sound8",
+    "icon": "fa-leaf",
+    "name": "Frog Croak",
+    "soundEffectnum": 8
+  },
+  {
+    "color": "color11",
+    "id": "sound11",
+    "icon": "fa-bug",
+    "name": "Bee",
+    "soundEffectnum": 11
+  },
+  {
+    "color": "color12",
+    "id": "sound12",
+    "icon": "fa-life-ring",
+    "name": "Swimming Pool",
+    "soundEffectnum": 12
+  },
+  {
+    "color": "color14",
+    "id": "sound14",
+    "icon": "fa-child",
+    "name": "Joyful Children",
+    "soundEffectnum": 14
+  },
+  {
+    "color": "color16",
+    "id": "sound16",
+    "icon": "fa-map-marker",
+    "name": "Scary Footsteps",
+    "soundEffectnum": 16
+  },
+  {
+    "color": "color17",
+    "id": "sound17",
+    "icon": "fa-home",
+    "name": "Dog Barking",
+    "soundEffectnum": 17
+  },
+  {
+    "color": "color18",
+    "id": "sound18",
+    "icon": "fa-bomb",
+    "name": "Jungle Battle",
+    "soundEffectnum": 18
+  }
+],
+  "alerts": [
+  {
+    "alarm": "alarm19",
+    "id": "sound19",
+    "name": "Foghorn",
+    "soundEffectnum": 19
+  },
+  {
+    "alarm": "alarm20",
+    "id": "sound20",
+    "name": "Beeping",
+    "soundEffectnum": 20
+  },
+  {
+    "alarm": "alarm21",
+    "id": "sound21",
+    "name": "Siren",
+    "soundEffectnum": 21
+  },
+  {
+    "alarm": "alarm22",
+    "id": "sound22",
+    "name": "Bells",
+    "soundEffectnum": 22
+  },
+  {
+    "alarm": "alarm23",
+    "id": "sound23",
+    "name": "Fart",
+    "soundEffectnum": 23
+  },
+  {
+    "alarm": "alarm24",
+    "id": "sound24",
+    "name": "No",
+    "soundEffectnum": 24
+  },
+  {
+    "alarm": "alarm25",
+    "id": "sound25",
+    "name": "Evil Laugh",
+    "soundEffectnum": 25
+  },
+  {
+    "alarm": "alarm26",
+    "id": "sound26",
+    "name": "Inception",
+    "soundEffectnum": 26
+  },
+  {
+    "alarm": "alarm27",
+    "id": "sound27",
+    "name": "Finish Him",
+    "soundEffectnum": 27
+  },
+  {
+    "alarm": "alarm28",
+    "id": "sound28",
+    "name": "Dolphin",
+    "soundEffectnum": 28
+  },
+  {
+    "alarm": "alarm29",
+    "id": "sound29",
+    "name": "Sad Trombone",
+    "soundEffectnum": 29
+  },
+  {
+    "alarm": "alarm30",
+    "id": "sound30",
+    "name": "It's Time To Stop",
+    "soundEffectnum": 30
+  },
+  {
+    "alarm": "alarm31",
+    "id": "sound31",
+    "name": "Hallelujah",
+    "soundEffectnum": 31
+  },
+  {
+    "alarm": "alarm32",
+    "id": "sound32",
+    "name": "Haha",
+    "soundEffectnum": 32
+  },
+  {
+    "alarm": "alarm33",
+    "id": "sound33",
+    "name": "Yes",
+    "soundEffectnum": 33
+  },
+  {
+    "alarm": "alarm34",
+    "id": "sound34",
+    "name": "I Believe I Can Fly",
+    "soundEffectnum": 34
+  },
+  {
+    "alarm": "alarm35",
+    "id": "sound35",
+    "name": "Crickets",
+    "soundEffectnum": 35
+  },
+  {
+    "alarm": "alarm36",
+    "id": "sound36",
+    "name": "You Shall Not Pass",
+    "soundEffectnum": 36
+  }
+],
+  "users": [
+  {
+    "name": "Test name",
+    "ProductiveTime": 0,
+    "BreakTime": 0
+  }
+]
+}
