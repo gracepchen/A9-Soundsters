@@ -1,5 +1,10 @@
 body {
   font-family: 'Dosis', sans-serif;
+  /*background-image: url(http://i.imgur.com/6DIkAXD.gif);*/
+  background-image: url(http://annstreetstudio.com/wp-content/uploads/2014/02/Turntable-980.gif);
+  background-size: cover;
+    color: #fff;
+
 }
 
 html, body
@@ -14,7 +19,7 @@ html, body
 h4 {
   font-size: 130%;
   font-weight: bold;
-  color: #00BCD4;
+
 }
 
 .btn {
@@ -247,7 +252,7 @@ li {
       margin-top: 0%;
     }
     .float{
-      bottom:15%;
+      bottom:12%;
       padding: 3%;
     }
     .squares > button{
