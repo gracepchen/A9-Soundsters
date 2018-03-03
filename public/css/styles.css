@@ -225,6 +225,23 @@ li {
     margin-bottom: 0;
   }
 
+    /* Color of placeholder */
+  input::-webkit-input-placeholder {
+    color: #ddd !important;
+  }
+
+  input:-moz-placeholder { /* Firefox 18- */
+    color: #ddd !important;  
+  }
+
+  input::-moz-placeholder {  /* Firefox 19+ */
+    color: #ddd !important;  
+  }
+
+  input:-ms-input-placeholder {  
+    color: #ddd !important;  
+  }
+
 
 /* Media Queries */
   @media (max-width: 500px) {
