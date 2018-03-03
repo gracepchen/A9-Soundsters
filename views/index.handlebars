@@ -35,7 +35,7 @@
 
 				<div class="soundscroll squares" id="scroll1">
 					{{#each soundscapes}} 
-					<button class="btn btn-outline-secondary scape {{color}} btn-grad" onclick="soundEffect({{soundEffectnum}})" id="{{id}}"><i class='fas {{icon}} fa-lg'></i><br>{{name}}</button>
+					<button class="btn btn-outline-secondary scape {{color}} btn-grad" onclick="soundEffect({{soundEffectnum}})" id="{{id}}"><i class='{{icon}} fa-lg'></i><br>{{name}}</button>
 					{{/each}}
 				</div>
 
@@ -43,7 +43,7 @@
 				<h4 data-toggle="tooltip" title="The sound that will play whenever you're off-task for too long">Select an Alert Sound</h4>
 				<div class="soundscroll squares" id="scroll2">
 					{{#each alerts}} 
-					<button class="btn btn-outline-secondary alarm {{alarm}} btn-grad" onclick="soundEffect({{soundEffectnum}})" id="{{id}}">{{name}}</button>
+					<button class="btn btn-outline-secondary alarm {{alarm}} btn-grad" onclick="soundEffect({{soundEffectnum}})" id="{{id}}"><i class='{{icon}} fa-lg'></i><br>{{name}}</button>
 					{{/each}}
 				</div>
 
