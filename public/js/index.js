@@ -100,6 +100,8 @@ $('.scape').click( function() {
   $( this ).addClass( "active" );
   if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
     $('.float').removeClass('disabled');
+    $('#ProfileButtonNEW a').removeClass('black');
+    $('#ProfileButtonNEW a').addClass('white');
   }
 });
 
@@ -108,6 +110,8 @@ $('.alarm').click( function() {
   $( this ).addClass( "active" );
   if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
     $('.float').removeClass('disabled');
+    $('#ProfileButtonNEW a').removeClass('black');
+    $('#ProfileButtonNEW a').addClass('white');
   }
 });
 

@@ -1,7 +1,7 @@
 
     function helpProfile() {
-      alert("In your profile, you can see your current stats across all work sessions." +
-        "Keep improving!");
+      alert("In your profile, you can track your current stats across all work sessions." +
+        " Keep on improving!");
     }
 
 ///////////////////////////////////Google Analytics NEW
