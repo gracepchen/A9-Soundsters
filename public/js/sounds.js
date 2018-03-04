@@ -76,6 +76,12 @@
     IBelieveICanFly.src = "../sounds/IBelieveICanFly.m4a";
     Crickets.src = "../sounds/Crickets.m4a";
     YouShallNotPass.src = "../sounds/YouShallNotPass.m4a";
+
+    var allSoundsList = [fallingRain, forestMorning, burningLogs, whiteNoise, CatMeowing, BeautifulChillMix,
+    Ambulance, FrogCroak, OceanWave, AirPlane, Bee, PublicSwimmingPool, Fan, LaughingAndGigglingKids,
+    PunchesAndSlaps, ScaryFootsteps, DogBarking, JungleBattleAmbience, foghorn, beeping, siren,
+    bells, Fart, No, EvilLaugh, InceptionButton, FinishHim, Dolphin, SadTrombone, ItTimeToStop,
+    Hallelujah, Haha, Yes, IBelieveICanFly, Crickets, YouShallNotPass];
     
 
     function playSavedSoundscape(){
@@ -91,43 +97,19 @@
     function soundEffect(num)
     {
       // if audio is playing, pause it first
-      if (!fallingRain.paused || !forestMorning.paused || !burningLogs.paused || !whiteNoise.paused || !CatMeowing.paused || !BeautifulChillMix.paused || !Ambulance.paused || !FrogCroak.paused || !OceanWave.paused || !AirPlane.paused || !Bee.paused || !PublicSwimmingPool.paused || !Fan.paused || !LaughingAndGigglingKids.paused || !PunchesAndSlaps.paused || !ScaryFootsteps.paused || !DogBarking.paused || !JungleBattleAmbience.paused || !foghorn.paused || !beeping.paused || !siren.paused || !bells.paused || !Fart.paused || !No.paused || !EvilLaugh.paused || !InceptionButton.paused || !FinishHim.paused || !Dolphin.paused || !SadTrombone.paused || !ItTimeToStop.paused || !Hallelujah.paused || !Haha.paused || !Yes.paused || !IBelieveICanFly.paused || !Crickets.paused || !YouShallNotPass.paused) {
-        fallingRain.pause();
-        forestMorning.pause();
-        burningLogs.pause();
-        whiteNoise.pause();
-        CatMeowing.pause();
-        BeautifulChillMix.pause();
-        Ambulance.pause();
-        FrogCroak.pause();
-        OceanWave.pause();
-        AirPlane.pause();
-        Bee.pause();
-        PublicSwimmingPool.pause();
-        Fan.pause();
-        LaughingAndGigglingKids.pause();
-        PunchesAndSlaps.pause();
-        ScaryFootsteps.pause();
-        DogBarking.pause();
-        JungleBattleAmbience.pause();
-        foghorn.pause();
-        beeping.pause();
-        siren.pause();
-        bells.pause();
-        Fart.pause();
-        No.pause();
-        EvilLaugh.pause();
-        InceptionButton.pause();
-        FinishHim.pause();
-        Dolphin.pause();
-        SadTrombone.pause();
-        ItTimeToStop.pause();
-        Hallelujah.pause();
-        Haha.pause();
-        Yes.pause();
-        IBelieveICanFly.pause();
-        Crickets.pause();
-        YouShallNotPass.pause();
+      if (!fallingRain.paused || !forestMorning.paused || !burningLogs.paused || !whiteNoise.paused || 
+        !CatMeowing.paused || !BeautifulChillMix.paused || !Ambulance.paused || !FrogCroak.paused || 
+        !OceanWave.paused || !AirPlane.paused || !Bee.paused || !PublicSwimmingPool.paused || !Fan.paused || 
+        !LaughingAndGigglingKids.paused || !PunchesAndSlaps.paused || !ScaryFootsteps.paused || 
+        !DogBarking.paused || !JungleBattleAmbience.paused || !foghorn.paused || !beeping.paused || 
+        !siren.paused || !bells.paused || !Fart.paused || !No.paused || !EvilLaugh.paused || 
+        !InceptionButton.paused || !FinishHim.paused || !Dolphin.paused || !SadTrombone.paused || 
+        !ItTimeToStop.paused || !Hallelujah.paused || !Haha.paused || !Yes.paused || !IBelieveICanFly.paused || 
+        !Crickets.paused || !YouShallNotPass.paused) {
+        for (i = 0; i < allSoundsList.length; i++) { 
+          var sound = allSoundsList[i];
+          sound.pause();
+        }
         console.log ("paused");
       }
 	  // Save the soundscape or alarm selection
@@ -140,200 +122,164 @@
 	  // Set the volume for alerts
 	  var alertVol = sessionStorage.getItem("alertVolume");
 	  if(alertVol == null){
-		alertVol = 1.0;
-	  }
+      alertVol = 1.0;
+    }
       //play the song is clicked
       if (num == 1) {
-        console.log("hi");
         fallingRain.loop = true;
         fallingRain.play();
       }
       else if (num == 2) {
-        console.log("hi2");
         forestMorning.loop = true;
         forestMorning.play();
       }
       else if (num == 3){
-        console.log("hi3");
         burningLogs.loop = true;
         burningLogs.play();
       }
       else if(num == 4){
-        console.log("hi4");
         whiteNoise.loop = true;
         whiteNoise.play();
       }
       else if(num == 5){
-        console.log("hi4");
         CatMeowing.loop = true;
         CatMeowing.play();
       }
       else if(num == 6){
-        console.log("hi4");
         BeautifulChillMix.loop = true;
         BeautifulChillMix.play();
       }
       else if(num == 7){
-        console.log("hi4");
         Ambulance.loop = true;
         Ambulance.play();
       }
       else if(num == 8){
-        console.log("hi4");
         FrogCroak.loop = true;
         FrogCroak.play();
       }
       else if(num == 9){
-        console.log("hi4");
         OceanWave.loop = true;
         OceanWave.play();
       }
       else if(num == 10){
-        console.log("hi4");
         AirPlane.loop = true;
         AirPlane.play();
       }
       else if(num == 11){
-        console.log("hi4");
         Bee.loop = true;
         Bee.play();
       }
       else if(num == 12){
-        console.log("hi4");
         PublicSwimmingPool.loop = true;
         PublicSwimmingPool.play();
       }
       else if(num == 13){
-        console.log("hi4");
         Fan.loop = true;
         Fan.play();
       }
       else if(num == 14){
-        console.log("hi4");
         LaughingAndGigglingKids.loop = true;
         LaughingAndGigglingKids.play();
       }
       else if(num == 15){
-        console.log("hi4");
         PunchesAndSlaps.loop = true;
         PunchesAndSlaps.play();
       }
       else if(num == 16){
-        console.log("hi4");
         ScaryFootsteps.loop = true;
         ScaryFootsteps.play();
       }
       else if(num == 17){
-        console.log("hi4");
         DogBarking.loop = true;
         DogBarking.play();
       }
       else if(num == 18){
-        console.log("hi4");
         JungleBattleAmbience.loop = true;
         JungleBattleAmbience.play();
       }
       else if(num == 19){
-        console.log("hi4");
-		foghorn.volume = alertVol;
+        foghorn.volume = alertVol;
         foghorn.play();
       }
       else if(num == 20){
-        console.log("hi4");
-		beeping.volume = alertVol;
+        beeping.volume = alertVol;
         beeping.play();
       }
       else if(num == 21){
-        console.log("hi4");
-		siren.volume = alertVol;
+        siren.volume = alertVol;
         siren.play();
       }
       else if(num == 22){
-        console.log("hi4");
-		bells.volume = alertVol;
+        bells.volume = alertVol;
         bells.play();
       }
       else if(num == 23){
-        console.log("hi4");
-		Fart.volume = alertVol;
+        Fart.volume = alertVol;
         Fart.play();
       }
       else if(num == 24){
-        console.log("hi4");
-		No.volume = alertVol;
+        No.volume = alertVol;
         No.play();
       }
       else if(num == 25){
-        console.log("hi4");
-		EvilLaugh.volume = alertVol;
+        EvilLaugh.volume = alertVol;
         EvilLaugh.play();
       }
       else if(num == 26){
-        console.log("hi4");
-		InceptionButton.volume = alertVol;
+        InceptionButton.volume = alertVol;
         InceptionButton.play();
       }
       else if(num == 27){
-        console.log("hi4");
-		FinishHim.volume = alertVol;
+        FinishHim.volume = alertVol;
         FinishHim.play();
       }
       else if(num == 28){
-        console.log("hi4");
-		Dolphin.volume = alertVol;
+        Dolphin.volume = alertVol;
         Dolphin.play();
       }
       else if(num == 29){
-        console.log("hi4");
-		SadTrombone.volume = alertVol;
+        SadTrombone.volume = alertVol;
         SadTrombone.play();
       }
       else if(num == 30){
-        console.log("hi4");
-		ItTimeToStop.volume = alertVol;
+        ItTimeToStop.volume = alertVol;
         ItTimeToStop.play();
       }
       else if(num == 31){
-        console.log("hi4");
-		Hallelujah.volume = alertVol;
+        Hallelujah.volume = alertVol;
         Hallelujah.play();
       }
       else if(num == 32){
-        console.log("hi4");
-		Haha.volume = alertVol;
+        Haha.volume = alertVol;
         Haha.play();
       }
       else if(num == 33){
-        console.log("hi4");
-		Yes.volume = alertVol;
+        Yes.volume = alertVol;
         Yes.play();
       }
       else if(num == 34){
-        console.log("hi4");
-		IBelieveICanFly.volume = alertVol;
+        IBelieveICanFly.volume = alertVol;
         IBelieveICanFly.play();
       }
       else if(num == 35){
-        console.log("hi4");
-		Crickets.volume = alertVol;
+        Crickets.volume = alertVol;
         Crickets.play();
       }
       else if(num == 36){
-        console.log("hi4");
-		YouShallNotPass.volume = alertVol;
+        YouShallNotPass.volume = alertVol;
         YouShallNotPass.play();
       }
 
-
-      
-      //show which song is selected
-      var div1 = document.getElementById("div1");
-      if(div1 != null){
-        div1.innerHTML = "You selected "+num;
-      }
     }
 
-function mute() { 
-  var scape = document.getElementByClassName("scape");
-    scape.volume = 0.0;
-}
+
+// pause sounds
+    $('.pause').click (function pause() {
+      for (i = 0; i < allSoundsList.length; i++) { 
+        var sound = allSoundsList[i];
+        sound.pause();
+      }
+    })
+
+    
+

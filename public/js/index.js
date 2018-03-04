@@ -35,7 +35,7 @@ function updateAlertTime(val) {
 }
 
 
-    //---------------------------- HELP POP-UPS ----------------------------//
+    // HELP POP-UPS 
     function helpStart() {
       alert("Every time you go off-task, SoundTrack will alert you at decreasing" +
         " intervals to help you stay productive and focused. To get started, simply" +
@@ -100,8 +100,6 @@ $('.scape').click( function() {
   $( this ).addClass( "active" );
   if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
     $('.float').removeClass('disabled');
-    $('#ProfileButtonNEW a').removeClass('black');
-    $('#ProfileButtonNEW a').addClass('white');
   }
 });
 
@@ -110,29 +108,27 @@ $('.alarm').click( function() {
   $( this ).addClass( "active" );
   if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
     $('.float').removeClass('disabled');
-    $('#ProfileButtonNEW a').removeClass('black');
-    $('#ProfileButtonNEW a').addClass('white');
   }
 });
 
 
 ///////////////////////////////////Google Analytics
 $('#StartWorking').click(function(){
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Start Working clicked' 
-});
-
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Start Working clicked' 
   });
+
+});
 
 ///////////////////////////////////Google Analytics NEW
 $('#SettingsButtonNEW').click(function(){
   var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Settings clicked index NEW' 
-});
+  console.log(timeSincePageLoad);
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Settings clicked index NEW' 
+  });
   // Sends the timing event to Google Analytics.
   gtag('event', 'click', {
     'name': 'load',
@@ -140,15 +136,15 @@ $('#SettingsButtonNEW').click(function(){
     'event_label': timeSincePageLoad,
     'event_category': 'Time to click Settings index NEW'
   });
-  });
+});
 
 $('#HelpButtonNEW').click(function(){
   var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Help clicked index NEW' 
-});
+  console.log(timeSincePageLoad);
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Help clicked index NEW' 
+  });
   // Sends the timing event to Google Analytics.
   gtag('event', 'click', {
     'name': 'load',
@@ -156,15 +152,15 @@ $('#HelpButtonNEW').click(function(){
     'event_label': timeSincePageLoad,
     'event_category': 'Time to click Help index NEW'
   });
-  });
+});
 
 $('#ProfileButtonNEW').click(function(){
   var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Profile clicked index NEW' 
-});
+  console.log(timeSincePageLoad);
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Profile clicked index NEW' 
+  });
   // Sends the timing event to Google Analytics.
   gtag('event', 'click', {
     'name': 'load',
@@ -172,15 +168,15 @@ $('#ProfileButtonNEW').click(function(){
     'event_label': timeSincePageLoad,
     'event_category': 'Time to click Profile index NEW'
   });
-  });
+});
 
 $('#LogoutButtonNEW').click(function(){
   var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Logout clicked index NEW' 
-});
+  console.log(timeSincePageLoad);
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Logout clicked index NEW' 
+  });
   // Sends the timing event to Google Analytics.
   gtag('event', 'click', {
     'name': 'load',
@@ -188,16 +184,16 @@ $('#LogoutButtonNEW').click(function(){
     'event_label': timeSincePageLoad,
     'event_category': 'Time to click Logout index NEW'
   });
-  });
+});
 
 ///////////////////////////////////Google Analytics OLD
 $('#SettingsButtonOLD').click(function(){
   var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Settings clicked index OLD' 
-});
+  console.log(timeSincePageLoad);
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Settings clicked index OLD' 
+  });
   // Sends the timing event to Google Analytics.
   gtag('event', 'click', {
     'name': 'load',
@@ -205,15 +201,15 @@ $('#SettingsButtonOLD').click(function(){
     'event_label': timeSincePageLoad,
     'event_category': 'Time to click Settings index OLD'
   });
-  });
+});
 
 $('#HelpButtonOLD').click(function(){
   var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Help clicked index OLD' 
-});
+  console.log(timeSincePageLoad);
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Help clicked index OLD' 
+  });
   // Sends the timing event to Google Analytics.
   gtag('event', 'click', {
     'name': 'load',
@@ -221,15 +217,15 @@ $('#HelpButtonOLD').click(function(){
     'event_label': timeSincePageLoad,
     'event_category': 'Time to click Help index OLD'
   });
-  });
+});
 
 $('#ProfileButtonOLD').click(function(){
   var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Profile clicked index OLD' 
-});
+  console.log(timeSincePageLoad);
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Profile clicked index OLD' 
+  });
   // Sends the timing event to Google Analytics.
   gtag('event', 'click', {
     'name': 'load',
@@ -237,15 +233,15 @@ $('#ProfileButtonOLD').click(function(){
     'event_label': timeSincePageLoad,
     'event_category': 'Time to click Profile index OLD'
   });
-  });
+});
 
 $('#LogoutButtonOLD').click(function(){
   var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Logout clicked index OLD' 
-});
+  console.log(timeSincePageLoad);
+  console.log("test");
+  gtag('event', 'click', {
+    'event_category': 'Logout clicked index OLD' 
+  });
   // Sends the timing event to Google Analytics.
   gtag('event', 'click', {
     'name': 'load',
@@ -253,4 +249,4 @@ $('#LogoutButtonOLD').click(function(){
     'event_label': timeSincePageLoad,
     'event_category': 'Time to click Logout index OLD'
   });
-  });
+});

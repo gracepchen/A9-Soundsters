@@ -246,6 +246,10 @@ input:-ms-input-placeholder {
   color: #ddd !important;  
 }
 
+footer {
+  height: 40px;
+}
+
 
 /* Media Queries */
 @media (max-width: 500px) {
@@ -269,8 +273,7 @@ input:-ms-input-placeholder {
     margin: 5%;
   }
   footer {
-    padding: 18%;
-    margin-top: 0%;
+    height: 35px;
   }
   .float{
     bottom:12%;
