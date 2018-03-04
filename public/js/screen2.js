@@ -1,9 +1,18 @@
-$(document).ready(centerIcons);
+$(document).ready(centerIcons());
+$(document).ready(activeSound());
 
 function centerIcons() {
   $('.icons i').addClass('d-flex justify-content-center align-items-center');
   $('.icons p').addClass('d-flex justify-content-center align-items-center mt-1');
 }
+
+// show selected sound from index
+function activeSound() {
+  var soundscape = localStorage.getItem("soundscape");
+  $('#sound' + soundscape).addClass('active');
+}
+
+
 
 var tempDowntimePassed = 0;
 var tempDowntimePassedSec = 0;
@@ -258,6 +267,8 @@ $('.scape').click( function() {
     $('.float').removeClass('disabled');
   }
 });
+
+
 
 
 ///////////////////////////////////Google Analytics NEW

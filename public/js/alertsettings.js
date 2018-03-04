@@ -1,9 +1,17 @@
-$(document).ready(centerIcons);
+$(document).ready(centerIcons());
+$(document).ready(activeAlert());
 
 function centerIcons() {
   $('.icons i').addClass('d-flex justify-content-center align-items-center');
   $('.icons p').addClass('d-flex justify-content-center align-items-center mt-1');
 }
+
+// show selected sound from index
+function activeAlert() {
+  var alarmSound = localStorage.getItem("alarm");
+  $('#sound' + alarmSound).addClass('active');
+}
+
 // Set the alert volume slider if the value was stored previously
 var alertVol = sessionStorage.getItem("alertVolume");
 if(alertVol != null){

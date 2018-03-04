@@ -282,13 +282,14 @@ $('.pause').click (function() {
     }
     $('.pause').text('Resume Playing');
   } else {
- playSavedSoundscape();
- $('.pause').text('Pause Sound');
+   playSavedSoundscape();
+   $('.pause').text('Pause Sound');
 
-  }
-
-     
-    });
+ }
+});
 
 
-
+function activeSound() {
+  var soundscape = localStorage.getItem("soundscape");
+  alert(soundscape);
+}
