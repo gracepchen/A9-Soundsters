@@ -1,3 +1,9 @@
+
+    function helpProfile() {
+      alert("In your profile, you can see your current stats across all work sessions." +
+        "Keep improving!");
+    }
+
 ///////////////////////////////////Google Analytics NEW
 $('#SettingsButtonNEW').click(function(){
   var timeSincePageLoad = Math.round(performance.now());

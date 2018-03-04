@@ -212,8 +212,9 @@ function checkTimeDigit(time) {
     //---------------------------- HELP POP-UPS ----------------------------//
     function helpListen() {
       alert("In this screen, you can see how productive you are and how much time" +
-        " you have left for your breaks. Change your current soundscape by swiping or" +
-        " clicking the slider. You can customize alerts in Settings at the top right.");
+        " you have used for your breaks. Change your current soundscape by swiping or" +
+        " clicking the slider. You can customize alerts in Settings and see your current" +
+        " stats in your Profile.");
     }
 
 

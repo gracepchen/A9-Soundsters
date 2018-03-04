@@ -17,6 +17,7 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/css/screen2.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	
@@ -48,11 +49,11 @@
 
 				<div id="productivityTracker" class="row mt-4">
 					<h4 class="col-12 mb-3">Productivity Tracker</h4>
-					<div class="productivity col-12"><b>Productive for: </b><span id="productiveTime">00:00</span></div>
-					<div class="offtask col-12"><b>Total Break Time: </b><span id="timer"></span></div>
-				</div>
+	
+					<div class="productivity col-sm-6"><b>Productive for:</b><br><span id="productiveTime">00:00</span></div>
+					<div class="offtask col-sm-6"><b>Total Break Time:</b><br><span id="timer"></span></div>
 
-				
+				</div>
 
 				<br>
 				<h4 data-toggle="tooltip" title="Get your head in the game! Choose a relaxing sound for your work session.">Soundscape</h4>
@@ -75,15 +76,15 @@
 				</marquee>
 				</div> -->
 
-				<br>
+
 				<a href="home" class="btn btn-outline-primary float" role="button" aria-pressed="true" onclick="resetPTimer()">Finish Work Session</a>
 			</div>
 {{#if viewNEW}}
 			<div class="container-fluid">
 				<div class="row icons">
 					<div id="SettingsButtonNEW" class="col-3"><a href="alertsettings" class="white"><i class="fas fa-cogs fa-lg"></i><p>Settings</p></a></div>
-					<div id="HelpButtonNEW" class="col-3"><i class="fas fa-info-circle fa-lg" onclick="helpListen()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpListen()" onmouseover="" style="cursor: pointer;">Help</p></div>
 					<div id="ProfileButtonNEW" class="col-3"><a href="profile" class="white" disabled><i class="fas fa-user fa-lg"></i><p>Profile</p></a></div>
+					<div id="HelpButtonNEW" class="col-3"><i class="fas fa-info-circle fa-lg" onclick="helpListen()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpListen()" onmouseover="" style="cursor: pointer;">Help</p></div>
 					<div id="LogoutButtonNEW" class="col-3"><a href="/" class="white"><i class="fas fa-sign-out-alt fa-lg"></i><p>Logout</p></a></div>
 				</div>
 			</div>
