@@ -66,3 +66,143 @@ $('.alarm').click( function() {
   }
 });
 
+$('#AlertPeriodSettings').click(function(){
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Alert Period Settings clicked' 
+});
+
+
+
+
+  });
+
+///////////////////////////////////Google Analytics NEW
+$('#SettingsButtonNEW').click(function(){
+  var timeSincePageLoad = Math.round(performance.now());
+    console.log(timeSincePageLoad);
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Settings clicked alertsettings NEW' 
+});
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'click', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_label': timeSincePageLoad,
+    'event_category': 'Time to click Settings alertsettings NEW'
+  });
+  });
+
+$('#HelpButtonNEW').click(function(){
+  var timeSincePageLoad = Math.round(performance.now());
+    console.log(timeSincePageLoad);
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Help clicked alertsettings NEW' 
+});
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'click', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_label': timeSincePageLoad,
+    'event_category': 'Time to click Help alertsettings NEW'
+  });
+  });
+
+$('#ProfileButtonNEW').click(function(){
+  var timeSincePageLoad = Math.round(performance.now());
+    console.log(timeSincePageLoad);
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Profile clicked alertsettings NEW' 
+});
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'click', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_label': timeSincePageLoad,
+    'event_category': 'Time to click Profile alertsettings NEW'
+  });
+  });
+
+$('#LogoutButtonNEW').click(function(){
+  var timeSincePageLoad = Math.round(performance.now());
+    console.log(timeSincePageLoad);
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Logout clicked alertsettings NEW' 
+});
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'click', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_label': timeSincePageLoad,
+    'event_category': 'Time to click Logout alertsettings NEW'
+  });
+  });
+
+///////////////////////////////////Google Analytics OLD
+$('#SettingsButtonOLD').click(function(){
+  var timeSincePageLoad = Math.round(performance.now());
+    console.log(timeSincePageLoad);
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Settings clicked alertsettings OLD' 
+});
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'click', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_label': timeSincePageLoad,
+    'event_category': 'Time to click Settings alertsettings OLD'
+  });
+  });
+
+$('#HelpButtonOLD').click(function(){
+  var timeSincePageLoad = Math.round(performance.now());
+    console.log(timeSincePageLoad);
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Help clicked alertsettings OLD' 
+});
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'click', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_label': timeSincePageLoad,
+    'event_category': 'Time to click Help alertsettings OLD'
+  });
+  });
+
+$('#ProfileButtonOLD').click(function(){
+  var timeSincePageLoad = Math.round(performance.now());
+    console.log(timeSincePageLoad);
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Profile clicked alertsettings OLD' 
+});
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'click', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_label': timeSincePageLoad,
+    'event_category': 'Time to click Profile alertsettings OLD'
+  });
+  });
+
+$('#LogoutButtonOLD').click(function(){
+  var timeSincePageLoad = Math.round(performance.now());
+    console.log(timeSincePageLoad);
+    console.log("test");
+    gtag('event', 'click', {
+      'event_category': 'Logout clicked alertsettings OLD' 
+});
+  // Sends the timing event to Google Analytics.
+  gtag('event', 'click', {
+    'name': 'load',
+    'value': timeSincePageLoad,
+    'event_label': timeSincePageLoad,
+    'event_category': 'Time to click Logout alertsettings OLD'
+  });
+  });

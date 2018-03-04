@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115042202-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115042202-1');
+</script>
+
 	<title>Profile</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,9 +34,9 @@
 				<div class="col-sm-4 center-block">
 				{{#if viewOLD}}
 					<ul>
-						<li><a href="alertsettings" class="black"><i class="fas fa-cogs fa-lg"></i><p>Settings</p></a></li>
-						<li><i class="fas fa-info-circle fa-lg" onclick="helpProfile()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpProfile()" onmouseover="" style="cursor: pointer;">Help</p></li>
-						<li><a href="/" class="black"><i class="fas fa-sign-out-alt fa-lg"></i><p>Logout</p></a></li>
+						<li><a id="SettingsButtonOLD" href="alertsettings" class="black"><i class="fas fa-cogs fa-lg"></i><p>Settings</p></a></li>
+						<li><i id="HelpButtonOLD" class="fas fa-info-circle fa-lg" onclick="helpProfile()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpProfile()" onmouseover="" style="cursor: pointer;">Help</p></li>
+						<li><a id="LogoutButtonOLD" href="/" class="black"><i class="fas fa-sign-out-alt fa-lg"></i><p>Logout</p></a></li>
 					</ul>
 				{{/if}}
 				</div>
@@ -42,10 +52,10 @@
 {{#if viewNEW}}
 <div class="container-fluid">
 				<div class="row icons">
-					<div class="col-3"><a href="alertsettings" class="white"><i class="fas fa-cogs fa-lg"></i><p>Settings</p></a></div>
-					<div class="col-3"><i class="fas fa-info-circle fa-lg" onclick="helpSettings()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpSettings()" onmouseover="" style="cursor: pointer;">Help</p></div>
-					<div class="col-3"><a href="profile" class="white" disabled><i class="fas fa-user fa-lg"></i><p>Profile</p></a></div>
-					<div class="col-3"><a href="/" class="white"><i class="fas fa-sign-out-alt fa-lg"></i><p>Logout</p></a></div>
+					<div id="SettingsButtonNEW" class="col-3"><a href="alertsettings" class="white"><i class="fas fa-cogs fa-lg"></i><p>Settings</p></a></div>
+					<div id="HelpButtonNEW" class="col-3"><i class="fas fa-info-circle fa-lg" onclick="helpSettings()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpSettings()" onmouseover="" style="cursor: pointer;">Help</p></div>
+					<div id="ProfileButtonNEW" class="col-3"><a href="profile" class="white" disabled><i class="fas fa-user fa-lg"></i><p>Profile</p></a></div>
+					<div id="LogoutButtonNEW" class="col-3"><a href="/" class="white"><i class="fas fa-sign-out-alt fa-lg"></i><p>Logout</p></a></div>
 				</div>
 			</div>
 
