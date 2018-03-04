@@ -9,7 +9,7 @@ var tempDowntimePassed = 0;
 var tempDowntimePassedSec = 0;
 var alertPeriod = sessionStorage.getItem("alerttimeVal");
 if(alertPeriod == null){
-	alertPeriod = 3;
+	alertPeriod = 5;
 }
 
 function startTimer() { // Jackie's countdown
