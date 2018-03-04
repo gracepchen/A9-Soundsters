@@ -119,19 +119,17 @@ ul li {
   background-color: #00BCD4; 
   color: #fff;
   float:left;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-size: 130%;
-  border-radius: 2%;
 }
 
 .offtask {
   background-color: #6B757C; 
   float:right;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-size: 130%;
-  border-radius: 2%;
 }
 
 /* Sound settings */
@@ -202,8 +200,10 @@ ul li {
 
 .squares > button{
   width:20%;
-  height:25%;
+  height:20%;
   margin:10px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 3%;
 }
 
@@ -247,7 +247,7 @@ input:-ms-input-placeholder {
 }
 
 footer {
-  height: 40px;
+  height: 75px;
 }
 
 

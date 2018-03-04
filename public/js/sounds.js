@@ -274,12 +274,21 @@
 
 
 // pause sounds
-    $('.pause').click (function pause() {
-      for (i = 0; i < allSoundsList.length; i++) { 
-        var sound = allSoundsList[i];
-        sound.pause();
-      }
-    })
+$('.pause').click (function() {
+  if ($('.pause').text() == 'Pause Sound') {
+    for (i = 0; i < allSoundsList.length; i++) { 
+      var sound = allSoundsList[i];
+      sound.pause();
+    }
+    $('.pause').text('Resume Playing');
+  } else {
+ playSavedSoundscape();
+ $('.pause').text('Pause Sound');
 
-    
+  }
+
+     
+    });
+
+
 
