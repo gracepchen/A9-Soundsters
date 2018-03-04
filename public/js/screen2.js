@@ -18,16 +18,16 @@ var timeArray = presentTime.split(/[:]+/);
 var m = parseInt(timeArray[0]);
 var s = parseInt(timeArray[1]);
 
-// Reduce the downtime left by 1 second
-if(s == 0 && m > 0) { 
-  m = m - 1;
-  s = 59;
-} 
-else if(s > 0){
-  s -= 1;
+// Increase downtime by 1 second
+if(s == 59){
+	m++;
+	s = 0;
+}
+else{
+	s++;
 }
 
-// Count up on the downtime passed for this "off-task" session
+// Increase the downtime passed for this "off-task" session
 if(tempDowntimePassedSec == 59){
 	tempDowntimePassed++;
 	tempDowntimePassedSec = 0;
@@ -41,17 +41,11 @@ if(tempDowntimePassed == alertPeriod && tempDowntimePassedSec == 0){
 	tempDowntimePassed = 0;
 	playSavedAlarm();
 }
-// Play the alarm if the downtime left hits 0
-if (m == 0 && s == 0) {
-  printTime(m, s, 'timer');
-  playSavedAlarm();
-  clearTimeout(timerCountdown);
-} 
-// Update the timer otherwise
-else {
-  printTime(m, s, 'timer'); 
-  timerCountdown = setTimeout(startTimer, 1000);
-}
+
+// Update the total downtime count
+printTime(m, s, 'timer'); 
+timerCountdown = setTimeout(startTimer, 1000);
+
 sessionStorage.setItem("downtimeVal", m);
 sessionStorage.setItem("downtimeValSecs", s);
 }
@@ -108,8 +102,16 @@ function updateAlertTime(val) {
 }
 
 if(timer != null){
-  timer.innerHTML = sessionStorage.getItem("downtimeVal") + ":" + sessionStorage.getItem("downtimeValSecs");
+ 	var storedDownTimeVal = sessionStorage.getItem("downtimeVal");
+	var storedDownTimeValSecs = sessionStorage.getItem("downtimeValSecs");
+	if(storedDownTimeVal != null && storedDownTimeValSecs != null){
+		printTime(storedDownTimeVal, storedDownTimeValSecs, 'timer');
+	}
+	else{
+		timer.innerHTML = "00:00";
+	}
 }
+
 if(pTime != null){
   var storedPTimeVal = sessionStorage.getItem("pTimeVal");
   var storedPTimeValSecs = sessionStorage.getItem("pTimeValSecs");
@@ -193,8 +195,8 @@ function checkTimeDigit(time) {
     }
 
     printTime(m, s, 'timer');**/
-    sessionStorage.setItem("downtimeVal", m);
-    sessionStorage.setItem("downtimeValSecs", s);
+    //sessionStorage.setItem("downtimeVal", m);
+    //sessionStorage.setItem("downtimeValSecs", s);
     
     // restart checking for inactive/active tab
     clearInterval(checkEnd);

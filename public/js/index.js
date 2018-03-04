@@ -9,8 +9,8 @@ function centerIcons() {
 function resetSlider() {
   var slider = document.getElementById('downtimeRange');
   if (slider != null) {
-    sessionStorage.setItem("downtimeVal", 20);
-    sessionStorage.setItem("downtimeValSecs", "00");
+    sessionStorage.setItem("downtimeVal", 0);
+    sessionStorage.setItem("downtimeValSecs", 0);
   }
 }
 //resets productive time to 0
