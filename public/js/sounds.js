@@ -289,7 +289,4 @@ $('.pause').click (function() {
 });
 
 
-function activeSound() {
-  var soundscape = localStorage.getItem("soundscape");
-  alert(soundscape);
-}
+
