@@ -145,74 +145,92 @@
       //play the song is clicked
       if (num == 1) {
         console.log("hi");
+        fallingRain.loop = true;
         fallingRain.play();
       }
       else if (num == 2) {
         console.log("hi2");
+        forestMorning.loop = true;
         forestMorning.play();
       }
       else if (num == 3){
         console.log("hi3");
+        burningLogs.loop = true;
         burningLogs.play();
       }
       else if(num == 4){
         console.log("hi4");
+        whiteNoise.loop = true;
         whiteNoise.play();
       }
       else if(num == 5){
         console.log("hi4");
+        CatMeowing.loop = true;
         CatMeowing.play();
       }
       else if(num == 6){
         console.log("hi4");
+        BeautifulChillMix.loop = true;
         BeautifulChillMix.play();
       }
       else if(num == 7){
         console.log("hi4");
+        Ambulance.loop = true;
         Ambulance.play();
       }
       else if(num == 8){
         console.log("hi4");
+        FrogCroak.loop = true;
         FrogCroak.play();
       }
       else if(num == 9){
         console.log("hi4");
+        OceanWave.loop = true;
         OceanWave.play();
       }
       else if(num == 10){
         console.log("hi4");
+        AirPlane.loop = true;
         AirPlane.play();
       }
       else if(num == 11){
         console.log("hi4");
+        Bee.loop = true;
         Bee.play();
       }
       else if(num == 12){
         console.log("hi4");
+        PublicSwimmingPool.loop = true;
         PublicSwimmingPool.play();
       }
       else if(num == 13){
         console.log("hi4");
+        Fan.loop = true;
         Fan.play();
       }
       else if(num == 14){
         console.log("hi4");
+        LaughingAndGigglingKids.loop = true;
         LaughingAndGigglingKids.play();
       }
       else if(num == 15){
         console.log("hi4");
+        PunchesAndSlaps.loop = true;
         PunchesAndSlaps.play();
       }
       else if(num == 16){
         console.log("hi4");
+        ScaryFootsteps.loop = true;
         ScaryFootsteps.play();
       }
       else if(num == 17){
         console.log("hi4");
+        DogBarking.loop = true;
         DogBarking.play();
       }
       else if(num == 18){
         console.log("hi4");
+        JungleBattleAmbience.loop = true;
         JungleBattleAmbience.play();
       }
       else if(num == 19){

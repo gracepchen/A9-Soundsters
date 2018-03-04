@@ -32,9 +32,9 @@
 
 			<h4 class="mt-3" data-toggle="tooltip" title="The sound that will play whenever you're off-task for too long">Alert Sound</h4>
 			<div class="soundscroll squares" id="scroll2">
-				{{#each alerts}} 
-				<button class="btn btn-outline-secondary alarm" onclick="soundEffect({{soundEffectnum}})" id="{{id}}">{{name}}</button>
-				{{/each}}
+					{{#each alerts}} 
+					<button class="btn btn-outline-secondary alarm {{alarm}} btn-grad" onclick="soundEffect({{soundEffectnum}})" id="{{id}}"><i class='{{icon}} fa-lg'></i><br>{{name}}</button>
+					{{/each}}
 			</div>
 
 			<!-- add save button: on save, updateTimeRange() -->

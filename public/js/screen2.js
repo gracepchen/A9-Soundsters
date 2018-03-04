@@ -139,7 +139,12 @@ function checkTimeDigit(time) {
     sessionStorage.setItem("overallDowntimeSec", 0);
     // set isActive status
     window.onfocus = function () { 
-      isActive = true; 
+      isActive = true;
+      //soundscape resumes playing when user goes back to tab after alarm
+      var soundscape = localStorage.getItem("soundscape"); 
+      console.log (soundscape);
+      soundEffect(soundscape); 
+
 	  tempDowntimePassed = 0;
 	  tempDowntimePassedSec = 0;
     }; 
