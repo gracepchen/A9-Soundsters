@@ -408,3 +408,10 @@ li {
 
 
   }
+
+#Testmessage{
+  color: lightgreen;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
