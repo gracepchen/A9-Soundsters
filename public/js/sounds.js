@@ -20,14 +20,14 @@
     var ScaryFootsteps = new Audio();
     var DogBarking = new Audio();
     var JungleBattleAmbience = new Audio();
-    fallingRain.src = "../sounds/fallingRain.m4a";
-    forestMorning.src = "../sounds/forestMorning.m4a";
-    burningLogs.src = "../sounds/burningLogs.m4a";
-    whiteNoise.src = "../sounds/whiteNoise.m4a" ;
+    fallingRain.src = "../sounds/fallingRain.mp3";
+    forestMorning.src = "../sounds/forestMorning.mp3";
+    burningLogs.src = "../sounds/burningLogs.mp3";
+    whiteNoise.src = "../sounds/whiteNoise.mp3" ;
     CatMeowing.src = "../sounds/CatMeowing.m4a" ;
     BeautifulChillMix.src = "../sounds/BeautifulChillMix.m4a" ;
     Ambulance.src = "../sounds/Ambulance.m4a" ;
-    FrogCroak.src = "../sounds/FrogCroak.m4a" ;
+    FrogCroak.src = "../sounds/FrogCroak.mp3" ;
     OceanWave.src = "../sounds/OceanWave.m4a" ;
     AirPlane.src = "../sounds/AirPlane.m4a" ;
     Bee.src = "../sounds/Bee.m4a" ;
@@ -38,7 +38,7 @@
     ScaryFootsteps.src = "../sounds/ScaryFootsteps.m4a" ;
     DogBarking.src = "../sounds/DogBarking.m4a" ;
     JungleBattleAmbience.src = "../sounds/JungleBattleAmbience.m4a" ;
-
+    
     //alert sound
     var foghorn = new Audio();
     var beeping = new Audio();
@@ -58,24 +58,24 @@
     var IBelieveICanFly = new Audio();
     var Crickets = new Audio();
     var YouShallNotPass = new Audio();
-    foghorn.src = "../sounds/foghorn.m4a";
-    beeping.src = "../sounds/beeping.m4a";
-    siren.src = "../sounds/siren.m4a";
-    bells.src = "../sounds/bells.m4a";
-    Fart.src = "../sounds/Fart.m4a";
-    No.src = "../sounds/No.m4a";
-    EvilLaugh.src = "../sounds/EvilLaugh.m4a";
-    InceptionButton.src = "../sounds/InceptionButton.m4a";
-    FinishHim.src = "../sounds/FinishHim.m4a";
-    Dolphin.src = "../sounds/Dolphin.m4a";
-    SadTrombone.src = "../sounds/SadTrombone.m4a";
-    ItTimeToStop.src = "../sounds/ItTimeToStop.m4a";
-    Hallelujah.src = "../sounds/Hallelujah.m4a";
-    Haha.src = "../sounds/Haha.m4a";
-    Yes.src = "../sounds/Yes.m4a";
-    IBelieveICanFly.src = "../sounds/IBelieveICanFly.m4a";
-    Crickets.src = "../sounds/Crickets.m4a";
-    YouShallNotPass.src = "../sounds/YouShallNotPass.m4a";
+    foghorn.src = "../sounds/foghorn.mp3";
+    beeping.src = "../sounds/beeping.mp3";
+    siren.src = "../sounds/siren.mp3";
+    bells.src = "../sounds/bells.mp3";
+    Fart.src = "../sounds/Fart.mp3";
+    No.src = "../sounds/No.mp3";
+    EvilLaugh.src = "../sounds/EvilLaugh.mp3";
+    InceptionButton.src = "../sounds/InceptionButton.mp3";
+    FinishHim.src = "../sounds/FinishHim.mp3";
+    Dolphin.src = "../sounds/Dolphin.mp3";
+    SadTrombone.src = "../sounds/SadTrombone.mp3";
+    ItTimeToStop.src = "../sounds/ItTimeToStop.mp3";
+    Hallelujah.src = "../sounds/Hallelujah.mp3";
+    Haha.src = "../sounds/Haha.mp3";
+    Yes.src = "../sounds/Yes.mp3";
+    IBelieveICanFly.src = "../sounds/IBelieveICanFly.mp3";
+    Crickets.src = "../sounds/Crickets.mp3";
+    YouShallNotPass.src = "../sounds/YouShallNotPass.mp3";
 
     var allSoundsList = [fallingRain, forestMorning, burningLogs, whiteNoise, CatMeowing, BeautifulChillMix,
     Ambulance, FrogCroak, OceanWave, AirPlane, Bee, PublicSwimmingPool, Fan, LaughingAndGigglingKids,
