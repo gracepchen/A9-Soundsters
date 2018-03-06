@@ -11,14 +11,14 @@
     "color": "color2",
     "id": "sound2",
     "icon": "fas fa-tree",
-    "name": "Forest Morning",
+    "name": "Forest",
     "soundEffectnum": 2
   },
   {
     "color": "color3",
     "id": "sound3",
     "icon": "fab fa-free-code-camp",
-    "name": "Burning Logs",
+    "name": "Fireplace",
     "soundEffectnum": 3
   },
   {
@@ -32,7 +32,7 @@
     "color": "color6",
     "id": "sound6",
     "icon": "fab fa-soundcloud",
-    "name": "Beautiful Chill Mix",
+    "name": "Chill Mix",
     "soundEffectnum": 6
   },
   {
@@ -60,21 +60,21 @@
     "color": "color12",
     "id": "sound12",
     "icon": "fas fa-life-ring",
-    "name": "Swimming Pool",
+    "name": "Pool",
     "soundEffectnum": 12
   },
   {
     "color": "color14",
     "id": "sound14",
     "icon": "fas fa-child",
-    "name": "Joyful Children",
+    "name": "Children",
     "soundEffectnum": 14
   },
   {
     "color": "color16",
     "id": "sound16",
     "icon": "fas fa-map-marker",
-    "name": "Scary Footsteps",
+    "name": "Footsteps",
     "soundEffectnum": 16
   },
   {
@@ -160,7 +160,7 @@
     "alarm": "alarm29",
     "id": "sound29",
     "icon": "fas fa-frown",
-    "name": "Sad Trombone",
+    "name": "Trombone",
     "soundEffectnum": 29
   },
   {

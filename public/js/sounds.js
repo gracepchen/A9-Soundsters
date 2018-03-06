@@ -284,7 +284,6 @@ $('.pause').click (function() {
   } else {
    playSavedSoundscape();
    $('.pause').text('Pause Sound');
-
  }
 });
 

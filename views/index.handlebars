@@ -39,7 +39,7 @@
 		<body>
 			<div class="container">
 				<center>
-					<div class="row mt-5">
+					<div class="row mt-3">
 						<div class="col-sm-4"></div>
 						<div class="col-sm-4"><h1>SoundTrack</h1></div>
 						<div class="col-sm-4">
@@ -53,15 +53,15 @@
 						</div>
 					</div>
 
-					<div id="Testmessage" class="loginforms">
-								Keeping you on track with sound since 2018.<br>Listen to a soothing soundscape while you work. SoundTrack will alert you whenever you're distracted for too long!
-							</div>
+					<div id="Testmessage">
+						Keeping you on track with sound since 2018.<br>Listen to a soothing soundscape while you work. SoundTrack will alert you whenever you're distracted for too long!
+					</div>
 
 
 
 
 
-					<h4 class="mt-4" data-toggle="tooltip" title="Get your head in the game! Choose a relaxing sound for your work session.">Select a Soundscape</h4>
+					<h4 class="mt-4" data-toggle="tooltip" title="Get your head in the game! Choose a relaxing sound for your work session.">Select Soundscape</h4>
 
 					<div class="soundscroll squares" id="scroll1">
 						{{#each soundscapes}} 
@@ -70,7 +70,7 @@
 					</div>
 
 					<br>
-					<h4 class="mt-4 mb-0" data-toggle="tooltip" title="The sound that will play whenever you're off-task for too long">Select an Alert Sound</h4>
+					<h4 class="mt-3 mb-0" data-toggle="tooltip" title="The sound that will play whenever you're off-task for too long">Select Alert Sound</h4>
 					<div class="soundscroll squares" id="scroll2">
 						{{#each alerts}} 
 						<button class="btn btn-outline-secondary alarm {{alarm}}" onclick="soundEffect({{soundEffectnum}})" id="{{id}}"><i class='{{icon}} fa-lg'></i><br>{{name}}</button>
@@ -83,7 +83,7 @@
 						<div class="col-sm-2"></div>
 						<div class="col-sm-8 alertperiod">
 							<!-- Alert Period: change minimum to 30 seconds? Link to Alert Settings later-->
-							<h4 data-toggle="tooltip" title="The amount of time between each alert">Set Alert Period to: <span id="alerttime">5</span> minutes</h4>
+							<h4 data-toggle="tooltip" title="The amount of time between each alert">Alert Period: <span id="alerttime">5</span> minutes</h4>
 
 							<div class="slidecontainer">
 								<input type="range" min="1" max="15" value="5" class="slider" id="downtimeRange" oninput="updateAlertTime(this.value)">
@@ -94,27 +94,27 @@
 
 
 
-				<!-- Start working -->
-				<a id="StartWorking" href="screen2" class="btn btn-outline-light float disabled" role="button" aria-pressed="true" aria-disabled="true" onclick="resetPTimer()">Start Working!</a>
+					<!-- Start working -->
+					<a id="StartWorking" href="screen2" class="btn btn-outline-light float" role="button" aria-pressed="true" onclick="resetPTimer()">Start Working!</a>
 
 
-				{{#if viewNEW}}
-				<div class="container-fluid">
-					<div class="row icons">
-						<div id="SettingsButtonNEW" class="col-3"><a href="#" class="black"><i class="fas fa-cogs fa-lg"></i><p>Settings</p></a></div>
-						<div id="ProfileButtonNEW" class="col-3"><a href="#" class="black"><i class="fas fa-user fa-lg"></i><p>Profile</p></a></div>
-						<div id="HelpButtonNEW" class="col-3"><i class="fas fa-info-circle fa-lg" onclick="helpStart()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpStart()" onmouseover="" style="cursor: pointer;">Help</p></div>
-						<div id="LogoutButtonNEW" class="col-3"><a href="/" class="white"><i class="fas fa-sign-out-alt fa-lg"></i><p>Logout</p></a></div>
+					{{#if viewNEW}}
+					<div class="container-fluid">
+						<div class="row icons">
+							<div id="SettingsButtonNEW" class="col-3"><a href="#" class="black"><i class="fas fa-cogs fa-lg"></i><p>Settings</p></a></div>
+							<div id="ProfileButtonNEW" class="col-3"><a href="#" class="black"><i class="fas fa-user fa-lg"></i><p>Profile</p></a></div>
+							<div id="HelpButtonNEW" class="col-3"><i class="fas fa-info-circle fa-lg" onclick="helpStart()" onmouseover="" style="cursor: pointer;"></i><p onclick="helpStart()" onmouseover="" style="cursor: pointer;">Help</p></div>
+							<div id="LogoutButtonNEW" class="col-3"><a href="/" class="white"><i class="fas fa-sign-out-alt fa-lg"></i><p>Logout</p></a></div>
+						</div>
 					</div>
-				</div>
-			</center>
-			{{/if}}
+				</center>
+				{{/if}}
 
 
-<footer class="mt-5">
-</footer>
+				<footer class="mt-5">
+				</footer>
 
-		</div>
+			</div>
 <!-- 	<footer>
 		<div class="row">
 			<div class="col-sm-12">

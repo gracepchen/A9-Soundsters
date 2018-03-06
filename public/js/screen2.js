@@ -263,9 +263,11 @@ $(function(){
 $('.scape').click( function() {
   $('.scape').removeClass( "active" );
   $( this ).addClass( "active" );
-  if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
-    $('.float').removeClass('disabled');
-  }
+
+if ($('.pause').text() == 'Resume Playing') {
+  $('.pause').text('Pause Sound');
+  $('.pause').button('toggle');
+}
 });
 
 

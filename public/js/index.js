@@ -1,9 +1,18 @@
 $(document).ready(resetSlider);
 $(document).ready(centerIcons);
+$(document).ready(defaultSounds);
 
+// bottom navigation bar
 function centerIcons() {
   $('.icons i').addClass('d-flex justify-content-center align-items-center');
   $('.icons p').addClass('d-flex justify-content-center align-items-center mt-1');
+}
+
+function defaultSounds() {
+  $('#sound1').addClass('active');
+  $('#sound19').addClass('active');
+  localStorage.setItem("soundscape", 1);
+  localStorage.setItem("alarm", 19);
 }
 
 function resetSlider() {
@@ -98,17 +107,17 @@ $(function(){
 $('.scape').click( function() {
   $('.scape').removeClass( "active" );
   $( this ).addClass( "active" );
-  if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
-    $('.float').removeClass('disabled');
-  }
+  // if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
+  //   $('.float').removeClass('disabled');
+  // }
 });
 
 $('.alarm').click( function() {
   $('.alarm').removeClass( "active" );
   $( this ).addClass( "active" );
-  if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
-    $('.float').removeClass('disabled');
-  }
+  // if (($('.scape').hasClass('active')) && ($('.alarm').hasClass('active'))) {
+  //   $('.float').removeClass('disabled');
+  // }
 });
 
 
