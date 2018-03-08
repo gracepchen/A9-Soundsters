@@ -208,7 +208,7 @@ ul li {
 /* width */
 ::-webkit-scrollbar {
   width: 1%;
-  height: 8%;
+  height: 15%;
 }
 
 /* Track */
@@ -419,3 +419,10 @@ footer {
 
   }
 
+#productiveTime{
+	font-size: 180%;
+}
+
+#timer{
+	font-size: 180%;
+}

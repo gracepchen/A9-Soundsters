@@ -20,25 +20,38 @@
     var ScaryFootsteps = new Audio();
     var DogBarking = new Audio();
     var JungleBattleAmbience = new Audio();
+    var CityStreet = new Audio();
+    var Spaceship = new Audio();
+    var NightWildlife = new Audio();
+    var Piano = new Audio();
+    var ShoppingMall = new Audio();
+    var MiiPlaza = new Audio();
+
     fallingRain.src = "../sounds/fallingRain.mp3";
     forestMorning.src = "../sounds/forestMorning.mp3";
     burningLogs.src = "../sounds/burningLogs.mp3";
     whiteNoise.src = "../sounds/whiteNoise.mp3" ;
-    CatMeowing.src = "../sounds/CatMeowing.m4a" ;
+    //CatMeowing.src = "../sounds/CatMeowing.m4a" ;
     BeautifulChillMix.src = "../sounds/BeautifulChillMix.m4a" ;
-    Ambulance.src = "../sounds/Ambulance.m4a" ;
+    //Ambulance.src = "../sounds/Ambulance.m4a" ;
     FrogCroak.src = "../sounds/FrogCroak.mp3" ;
-    OceanWave.src = "../sounds/OceanWave.m4a" ;
-    AirPlane.src = "../sounds/AirPlane.m4a" ;
-    Bee.src = "../sounds/Bee.m4a" ;
+    //OceanWave.src = "../sounds/OceanWave.m4a" ;
+    //AirPlane.src = "../sounds/AirPlane.m4a" ;
+    //Bee.src = "../sounds/Bee.m4a" ;
     PublicSwimmingPool.src = "../sounds/PublicSwimmingPool.m4a" ;
-    Fan.src = "../sounds/Fan.m4a" ;
-    LaughingAndGigglingKids.src = "../sounds/LaughingAndGigglingKids.m4a" ;
-    PunchesAndSlaps.src = "../sounds/PunchesAndSlaps.m4a" ;
-    ScaryFootsteps.src = "../sounds/ScaryFootsteps.m4a" ;
-    DogBarking.src = "../sounds/DogBarking.m4a" ;
-    JungleBattleAmbience.src = "../sounds/JungleBattleAmbience.m4a" ;
-    
+    //Fan.src = "../sounds/Fan.m4a" ;
+    //LaughingAndGigglingKids.src = "../sounds/LaughingAndGigglingKids.m4a" ;
+    //PunchesAndSlaps.src = "../sounds/PunchesAndSlaps.m4a" ;
+    //ScaryFootsteps.src = "../sounds/ScaryFootsteps.m4a" ;
+    //DogBarking.src = "../sounds/DogBarking.m4a" ;
+    //JungleBattleAmbience.src = "../sounds/JungleBattleAmbience.m4a" ;
+    CityStreet.src = "../sounds/CityStreet.wav" ;
+    Spaceship.src = "../sounds/Spaceship.wav" ;
+	NightWildlife.src = "../sounds/NightWildlife.wav" ;
+	Piano.src = "../sounds/Piano.mp3" ;
+	ShoppingMall.src = "../sounds/ShoppingMall.wav" ;
+	MiiPlaza.src = "../sounds/MiiPlaza.mp3" ;
+
     //alert sound
     var foghorn = new Audio();
     var beeping = new Audio();
@@ -81,7 +94,7 @@
     Ambulance, FrogCroak, OceanWave, AirPlane, Bee, PublicSwimmingPool, Fan, LaughingAndGigglingKids,
     PunchesAndSlaps, ScaryFootsteps, DogBarking, JungleBattleAmbience, foghorn, beeping, siren,
     bells, Fart, No, EvilLaugh, InceptionButton, FinishHim, Dolphin, SadTrombone, ItTimeToStop,
-    Hallelujah, Haha, Yes, IBelieveICanFly, Crickets, YouShallNotPass];
+    Hallelujah, Haha, Yes, IBelieveICanFly, Crickets, YouShallNotPass, CityStreet, Spaceship, NightWildlife, Piano, ShoppingMall, MiiPlaza];
     
 
     function playSavedSoundscape(){
@@ -105,7 +118,8 @@
         !siren.paused || !bells.paused || !Fart.paused || !No.paused || !EvilLaugh.paused || 
         !InceptionButton.paused || !FinishHim.paused || !Dolphin.paused || !SadTrombone.paused || 
         !ItTimeToStop.paused || !Hallelujah.paused || !Haha.paused || !Yes.paused || !IBelieveICanFly.paused || 
-        !Crickets.paused || !YouShallNotPass.paused) {
+        !Crickets.paused || !YouShallNotPass.paused || !CityStreet.paused || !Spaceship.paused || 
+        !NightWildlife.paused || !Piano.paused || !ShoppingMall.paused || !MiiPlaza.paused) {
         for (i = 0; i < allSoundsList.length; i++) { 
           var sound = allSoundsList[i];
           sound.pause();
@@ -150,12 +164,12 @@
         BeautifulChillMix.play();
       }
       else if(num == 7){
-        Ambulance.loop = true;
-        Ambulance.play();
+        CityStreet.loop = true;
+        CityStreet.play();
       }
       else if(num == 8){
-        FrogCroak.loop = true;
-        FrogCroak.play();
+        Spaceship.loop = true;
+        Spaceship.play();
       }
       else if(num == 9){
         OceanWave.loop = true;
@@ -166,8 +180,8 @@
         AirPlane.play();
       }
       else if(num == 11){
-        Bee.loop = true;
-        Bee.play();
+        NightWildlife.loop = true;
+        NightWildlife.play();
       }
       else if(num == 12){
         PublicSwimmingPool.loop = true;
@@ -178,20 +192,20 @@
         Fan.play();
       }
       else if(num == 14){
-        LaughingAndGigglingKids.loop = true;
-        LaughingAndGigglingKids.play();
+        Piano.loop = true;
+        Piano.play();
       }
       else if(num == 15){
         PunchesAndSlaps.loop = true;
         PunchesAndSlaps.play();
       }
       else if(num == 16){
-        ScaryFootsteps.loop = true;
-        ScaryFootsteps.play();
+        ShoppingMall.loop = true;
+        ShoppingMall.play();
       }
       else if(num == 17){
-        DogBarking.loop = true;
-        DogBarking.play();
+        MiiPlaza.loop = true;
+        MiiPlaza.play();
       }
       else if(num == 18){
         JungleBattleAmbience.loop = true;

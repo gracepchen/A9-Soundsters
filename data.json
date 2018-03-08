@@ -39,21 +39,21 @@
     "color": "color7",
     "id": "sound7",
     "icon": "fas fa-ambulance",
-    "name": "Ambulance",
+    "name": "City Street",
     "soundEffectnum": 7
   },
   {
     "color": "color8",
     "id": "sound8",
     "icon": "fas fa-leaf",
-    "name": "Frog Croak",
+    "name": "Spaceship",
     "soundEffectnum": 8
   },
   {
     "color": "color11",
     "id": "sound11",
     "icon": "fab fa-forumbee",
-    "name": "Bee",
+    "name": "Crickets",
     "soundEffectnum": 11
   },
   {
@@ -67,21 +67,21 @@
     "color": "color14",
     "id": "sound14",
     "icon": "fas fa-child",
-    "name": "Children",
+    "name": "Piano",
     "soundEffectnum": 14
   },
   {
     "color": "color16",
     "id": "sound16",
     "icon": "fas fa-map-marker",
-    "name": "Footsteps",
+    "name": "Mall",
     "soundEffectnum": 16
   },
   {
     "color": "color17",
     "id": "sound17",
     "icon": "fas fa-home",
-    "name": "Dog Barking",
+    "name": "Mii Plaza",
     "soundEffectnum": 17
   }
 ],
