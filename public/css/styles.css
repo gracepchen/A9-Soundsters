@@ -2,7 +2,7 @@
   color: white;
   font-weight: bold;
   font-size: 110%;
-   padding: 3%;
+  padding: 3%;
   background: rgba(107,117,124, 0.5);
 
 }
@@ -289,135 +289,7 @@ footer {
   #Testmessage{
     font-size: 85%;
   }
-    /*.color1 
-    { 
-      background: #FF8C00; 
-    }
-    .color2 
-    { 
-      background: #FF8C00; 
-    }
-    .color3 
-    { 
-      background: #FF8C00; 
-    }
-    .color4 
-    { 
-      background: #FF8C00; 
-    }
-    .color6 
-    { 
-      background: #FF8C00; 
-    }
-    .color7 
-    { 
-      background: #FF8C00; 
-    }
-    .color8 
-    { 
-      background: #FF8C00; 
-    }
-    .color11 
-    { 
-      background: #FF8C00; 
-    }
-    .color12 
-    { 
-      background: #FF8C00; 
-    }
-    .color14 
-    { 
-      background: #FF8C00; 
-    }
-    .color16 
-    { 
-      background: #FF8C00; 
-    }
-    .color17 
-    { 
-      background: #FF8C00; 
-    }
-    .color18 
-    { 
-      background: #FF8C00; 
-    }
-
-    .alarm19
-    { 
-      background: #FF1493; 
-    }
-    .alarm20 
-    { 
-      background: #FF1493; 
-    }
-    .alarm21 
-    { 
-      background: #FF1493; 
-    }
-    .alarm22 
-    { 
-      background: #FF1493; 
-    }
-    .alarm23 
-    { 
-      background: ##FF1493; 
-    }
-    .alarm24 
-    { 
-      background: #FF1493; 
-    }
-    .alarm25 
-    { 
-      background: #FF1493; 
-    }
-    .alarm26 
-    { 
-      background: #FF1493; 
-    }
-    .alarm27 
-    { 
-      background: #FF1493; 
-    }
-    .alarm28 
-    { 
-      background: #FF1493; 
-    }
-    .alarm29 
-    { 
-      background: #FF1493; 
-    }
-    .alarm30 
-    { 
-      background: #FF1493; 
-    }
-    .alarm31 
-    { 
-      background: #FF1493; 
-    }
-      .alarm32 
-    { 
-      background: #FF1493; 
-    }
-      .alarm33 
-    { 
-      background: #FF1493; 
-    }
-      .alarm34 
-    { 
-      background: #FF1493; 
-    }
-      .alarm35 
-    { 
-      background:  #FF1493; 
-    }
-      .alarm36 
-    { 
-      background:  #FF1493; 
-    }
-    */
-
-
-  }
+}
 
 #productiveTime{
 	font-size: 180%;

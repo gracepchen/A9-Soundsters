@@ -1,6 +1,5 @@
 body {
   font-family: 'Dosis', sans-serif;
-  /*background-image: url(http://i.imgur.com/6DIkAXD.gif);*/
   background-image: url(/images/bg.gif);
   background-size: cover;
   color: #fff;
@@ -20,7 +19,7 @@ body::before {
 
 .loginforms {
   padding: 4%;
-  background-color: #6B757C;
+  background: rgba(107,117,124, 0.5);
 }
 
 
@@ -37,7 +36,7 @@ body::before {
   overflow:hidden;
   text-align:center;
     color: white;
-}*/
+    }*/
 
 /*figure {
   animation:wobble 5s ease-in-out infinite;
