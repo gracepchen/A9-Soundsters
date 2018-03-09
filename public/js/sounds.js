@@ -29,7 +29,8 @@
 
     fallingRain.src = "../sounds/fallingRain.mp3";
     forestMorning.src = "../sounds/forestMorning.mp3";
-    burningLogs.src = "../sounds/burningLogs.mp3";
+    //burningLogs.src = "../sounds/burningLogs.mp3";
+    burningLogs.src = "../sounds/Fireplace.wav";
     whiteNoise.src = "../sounds/whiteNoise.mp3" ;
     //CatMeowing.src = "../sounds/CatMeowing.m4a" ;
     BeautifulChillMix.src = "../sounds/BeautifulChillMix.m4a" ;
